@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/primary"
+    android:padding="48dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:textSize="32dp"
+        android:textColor="@color/secondary"
+        android:background="@drawable/circle_button"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="32dp"
+        android:id="@+id/start"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="ADD CARDS"
+        android:layout_marginBottom="24dp"
+        android:layout_below="@+id/start"
+        android:textColor="@color/high_light"
+        android:background="@drawable/rectangle_button"
+        android:id="@+id/add_cards"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="EDIT CARDS"
+        android:background="@drawable/rectangle_button"
+        android:textColor="@color/high_light"
+        android:layout_marginBottom="24dp"
+        android:layout_below="@+id/add_cards"
+        android:id="@+id/edit_cards"/>
+
+
+</RelativeLayout>
